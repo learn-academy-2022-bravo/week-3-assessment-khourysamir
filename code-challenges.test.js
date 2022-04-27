@@ -36,6 +36,11 @@ describe ("fibonacci", () => {
 
 // b) Create the function that makes the test pass.
 // Pseudo Code
+//create a function named fibonacci 
+//put the data type we're working with in the parameter(in this case, number)
+//using a for loop to push the updated array values by adding the array values from var1
+// is looping up until (number) is met
+
 const fibonacci = (number) => {
     let var1 = [1,1];
     for (let i = 2; i < number; i++) {
@@ -76,6 +81,11 @@ it ("takes in an array and returns a new array of only odd numbers sorted from l
 
 
 // b) Create the function that makes the test pass.
+//PseudoCode
+//create a function named newArray
+//create a condition that the value must have a remainder greater than 0 AND must equal to a number
+//sort the values from least to greatest
+
 
 const newArray = (array) => {
     return array.filter(value => {
@@ -132,7 +142,11 @@ it ("takes in an array and returns an array of the accumulating sum. An empty ar
 
 
 // b) Create the function that makes the test pass.
-
+//PseudoCode
+//create a function named arraySum
+//make a new variable containing an empty array
+// map through the array and if the index has more than 1(0) then add up all the values
+//if the array doesn't return the empty array
 
 const arraySum = (array) => {
     let newArray = []
